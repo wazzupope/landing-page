@@ -7,18 +7,11 @@ nav {
     display: flex;
 }
 
-.header {
-    display: grid;
-    grid-template-columns: 350px 350px;
-    gap: 20px;
-    justify-content: center;
-}
-
 #article1, #placeholder {
     display: grid;
 }
 
-#section1 {
+#header, #section1 {
     display: grid;
     grid-template-columns: 350px 350px;
     gap: 20px;
