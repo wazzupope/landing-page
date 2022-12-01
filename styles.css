@@ -17,3 +17,16 @@ nav {
     gap: 20px;
     justify-content: center;
 }
+
+#section2 {
+    display: grid;
+    grid-template-columns: 800px;
+    grid-template-rows: 100px 200px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#subsection1 {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+}
