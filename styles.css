@@ -7,15 +7,20 @@ nav {
     display: flex;
 }
 
-nav > div {
-    padding: 10px;
-}
-
 .header {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 20px;
+    justify-content: center;
 }
 
-.header > img {
-    padding: 10px;
+#article1, #placeholder {
+    display: grid;
+}
+
+#section1 {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 20px;
+    justify-content: center;
 }
