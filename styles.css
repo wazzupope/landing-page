@@ -11,6 +11,12 @@ h1 {
     color: #F9FAF8;
 }
 
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 header > img {
     font-size: 24px;
     color: #F9FAF8;
@@ -35,6 +41,12 @@ nav {
     color: #E5E7EB;
 }
 
+#footer {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+
 #header, #section1 {
     display: grid;
     grid-template-columns: 350px 350px;
@@ -46,6 +58,7 @@ nav {
 #section1 > img {
     font-size: 18px;
     color: #E5E7EB;
+    background-color: #6C747D;
 }
 
 #section2 {
@@ -61,6 +74,19 @@ nav {
     flex-direction: column;
     width: 800px;
     align-items: flex-end;
+    background-color: #E5E7EB;
+}
+
+#section3 > p {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+#section3 > span {
+    font-size: 24px;
+    font-weight: 700;
 }
 
 #section4 {
@@ -71,9 +97,21 @@ nav {
 #subsection1 {
     display: grid;
     grid-template-columns: repeat(4, 200px);
+    color: #6C747D;
+    font-size: 18px;
 }
 
 #subsection2 {
     display: flex;
     align-items: center;
+    background-color: #3882F6
+}
+
+#subsection2 > article {
+    color: #F9FAF8;
+}
+
+#subsection2 > button {
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
