@@ -2,14 +2,37 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+header > img {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 nav {
     display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 #article1, #placeholder {
     display: grid;
+}
+
+#article1 > button {
+    background-color: #3882F6;
+}
+
+#article1 > p, #article1 > button {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 #header, #section1 {
@@ -17,6 +40,12 @@ nav {
     grid-template-columns: 350px 350px;
     gap: 20px;
     justify-content: center;
+    background-color: #1F2937;
+}
+
+#section1 > img {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 #section2 {
