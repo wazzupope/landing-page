@@ -54,8 +54,7 @@ nav {
 }
 
 #header, #section1 {
-    display: grid;
-    grid-template-columns: 350px 350px;
+    display: flex;
     gap: 20px;
     justify-content: center;
     background-color: #1F2937;
