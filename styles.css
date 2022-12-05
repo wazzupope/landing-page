@@ -26,10 +26,13 @@ nav {
     display: flex;
     font-size: 18px;
     color: #E5E7EB;
+    width: 400px;
+    justify-content: flex-end;
+    gap: 20px;
 }
 
 #article1, #placeholder {
-    display: grid;
+    width: 400px;
 }
 
 #article1 > button {
@@ -48,17 +51,28 @@ nav {
     width: 100%;
 }
 
-#header > img {
-    font-size: 24px;
-    color: #F9FAF8;
+#header {
+    width: 100%;
 }
 
-#header, #section1 {
+#headerbox > img {
+    font-size: 24px;
+    color: #F9FAF8;
+    width: 400px;
+}
+
+#headerbox, #mainbox {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     justify-content: center;
+    align-items: center;
     background-color: #1F2937;
-    width: 100%;
+}
+
+#mainbox > img {
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #6C747D;
 }
 
 #quotebox {
@@ -77,12 +91,6 @@ nav {
 #quotebox > span {
     font-size: 24px;
     font-weight: 700;
-}
-
-#section1 > img {
-    font-size: 18px;
-    color: #E5E7EB;
-    background-color: #6C747D;
 }
 
 #section2 {
