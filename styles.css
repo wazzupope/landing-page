@@ -71,6 +71,10 @@ nav {
     color: #E5E7EB;
 }
 
+#copyright {
+    margin: 40px;
+}
+
 #footer {
     font-size: 18px;
     color: #E5E7EB;
