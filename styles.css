@@ -1,4 +1,5 @@
 /* GLOBAL AND MULTIPLE SECTION SELECTORS */
+
 body {
     display: flex;
     flex-direction: column;
@@ -27,7 +28,7 @@ main {
     width: 100%;
 }
 
-#headerbox > img {
+#headerlogo {
     font-size: 24px;
     color: #F9FAF8;
     width: 500px;
