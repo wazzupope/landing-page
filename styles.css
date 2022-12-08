@@ -21,6 +21,10 @@ h2 {
     margin-bottom: 50px;
 }
 
+h3 {
+    margin: auto;
+}
+
 main {
     width: 100%;
 }
@@ -58,7 +62,7 @@ nav {
     background-color: #3882F6;
     margin: 10px 0px;
     border-radius: 10px;
-    padding: 5px 20px;
+    padding: 5px 30px;
     border: none;
 }
 
@@ -101,6 +105,10 @@ nav {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+}
+
+#pcall {
+    margin: auto;
 }
 
 #placebox {
@@ -163,6 +171,16 @@ nav {
     justify-content: center;
 }
 
+#signup {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    margin-left: 150px;
+    border-radius: 10px;
+    padding: 5px 30px;
+    border: 2px solid #F9FAF8;
+}
+
 #subsection1 {
     display: grid;
     grid-template-columns: repeat(4, 200px);
@@ -181,14 +199,12 @@ nav {
 #subsection2 {
     display: flex;
     align-items: center;
-    background-color: #3882F6
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 50px 100px;
+    border-radius: 10px;
 }
 
 #subsection2 > article {
-    color: #F9FAF8;
-}
-
-#subsection2 > button {
-    background-color: #3882F6;
     color: #F9FAF8;
 }
